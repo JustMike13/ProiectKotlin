@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_camera"
+        android:title="Camera"
+        android:icon="@drawable/ic_baseline_camera_alt_24"
+        />
+    <item
+        android:id="@+id/nav_task"
+        android:title="List of Books"
+        android:icon="@drawable/ic_baseline_list_alt_24"/>
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_applications_24"/>
+
+    </group>
+    <item
+        android:title="Profile">
+
+        <menu>
+            <group>
+            <item
+                android:id="@+id/nav_profile"
+                android:title="Profile"
+                android:icon="@drawable/ic_baseline_login_24"/>
+            </group>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Communication">
+        <menu>
+        <group>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share"
+                android:icon="@drawable/ic_baseline_share_24"/>
+
+        </group>
+        </menu>
+
+
+    </item>
+
+</menu>
